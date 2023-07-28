@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(images/special-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+border: 2px solid;
+background: rgba(0, 0, 0, 0.541);
+height: 400px;
+width: 300px;
+margin-top: 5rem;
+align-items: center;
+text-align: center;
+transition: 0.6s all;
+transform: translateX(-100%); 
+visibility: hidden;
+color: white;
+border-radius: 20px;
+}
+.wraper {
+    transition: none;
+   visibility: visible;
+    transform: translateX(0);
+}
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.shift {
+    border: 1px solid white;
+   margin: 3rem 0;
+   padding: rem;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-radius: 10px 10px 10px 10px;
+}
+.popup{
+    border: 1px solid black;
+  color: green;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  top: 9rem;
+  left: 2rem;
+  padding: 2rem 3rem;
+  visibility: hidden;
+}
+.pop{
+    border: 1px solid black;
+  color: green;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  top: 15rem;
+  left: 1.2rem;
+  padding: 2rem 3rem;
+  visibility: hidden;
+}
+.showpop {
+    visibility: visible;
+}
+.popup i {
+    color: green;
+}
+.pop i {
+    color: green;
+}
+#shift {
+    margin-bottom: 20px;
+}
+label {
+    cursor: pointer;
+ display: block;
+ font-size: 16px;
+ color: white;
+ font-size: 15px;
+ font-weight: 600;
+}
+
+.checks {
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-between;
+}
+i {
+    color: white;
+}
+a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: darkgreen;
+}
+a:hover {
+    color: rgb(12, 33, 71);
+   
+}
+p {
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+.click{
+    margin-top: 2rem;
+}
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 3rem;
+   background-color: darkgreen;
+   color: white;
+}
+button:hover {
+    background-color: transparent;
+    color: black;
+}
+.rapper {
+    border: 2px solid;
+background: rgba(0, 0, 0, 0.541);
+margin-left: -19rem;
+height: 590px;
+width: 300px;
+align-items: center;
+text-align: center;
+transition: 0.6s all;
+transform: translateX(100%); 
+visibility: hidden;
+color: white;
+border-radius: 20px;
+}
+.raper {
+    transition: none;
+   visibility: visible;
+    transform: translateX(0);
+}
+
+.logins {
+    border: none;
+    padding: 0;
+    margin-left: 0.5rem;
+    background-color: transparent;
+    color: green;
+    font-size: 15px;
+    font-weight: 600;
+    animation: ring 3s ease-in-out infinite;
+    cursor: pointer;
+}
+#click {
+    margin-top: 0;
+}
+.login2 {
+    border: none;
+    padding: 0;
+    margin-left: 0.5rem;
+    background-color: transparent;
+    color: green;
+    font-size: 15px;
+    font-weight: 600;
+    animation: ring 3s ease-in-out infinite;
+    cursor: pointer;
+}
+.login:hover {
+    color: rgb(4, 4, 63);
+    outline: none;
+}
+.calm {
+    color: red;
+    display: none;
+}
+.calmer {
+    color: red;
+    display: none;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+.errors {
+    color: red;
+    display: none;
+}
+.names {
+    color: red;
+    display: none; 
+}
+.emails {
+    color: red;
+    display: none; 
+}
+.passwords {
+    color: red;
+    display: none; 
+}
+.passes {
+    color: red;
+    display: none;
+}

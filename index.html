@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+   <div class="wrapper">
+    <h1>Login</h1>
+    <div class="calm">Please enter value</div>
+     <form action="" class="form">
+       <div class="shift" id="shift">
+        <label for="email" class="label">Email</label>
+        <input type="text" name="text" id="email" class="email" autocomplete="email">
+        <span class="icon"><i class="fa-regular fa-user"></i></span>
+        <div class="error">Please enter email</div>
+       </div>
+       <div class="shift">
+        <label for="password" class="pass">Password </label>
+        <input type="password" name="text" id="password" class="password" autocomplete="new-password">
+        <i class="fa-solid fa-lock"></i>
+        <div class="errors">Please enter Password</div>
+       </div>
+       <div class="checks">
+        <label for="rember">
+            <input type="checkbox" id="rember">Remeber me <a href="">Forgot Password?</a>
+        </label>
+       </div>
+    </form>
+    <button type="submit" onclick="message()" class="stay">Login</button>
+    <p>Don't have an account? 
+        <button class="logins">Register</button>
+    </p>
+    <div class="popup"><i class="fa-regular fa-circle-check"></i>Login successful</div>
+   </div>
+
+
+   <div class="rapper">
+    <h1>Register</h1>
+     <form action="" id="form">
+       <div class="shift" id="shift">
+        <label for="name" class="label">Name</label>
+        <input type="text" name="text" id="name" class="input" autocomplete="name">
+        <span class="icon"><i class="fa-regular fa-user"></i></span>
+        <div class="names">Please enter name</div>
+       </div>
+       <div class="shift">
+        <label for="email" class="label">Email </label>
+        <input type="email" name="text" id="email2" class="input" autocomplete="email">
+        <i class="fa-solid fa-envelope"></i>
+        <div class="emails">Please enter email</div>
+       </div>
+       <div class="shift">
+        <label for="password" class="pass">Password </label>
+        <input type="password" name="text" id="password2" class="input" autocomplete="new-password">
+        <i class="fa-solid fa-lock"></i>
+        <div class="passwords">Please enter password</div>
+       </div>
+       <div class="shift">
+        <label for="password" class="pass"> Confirm Password </label>
+        <input type="password" name="text" id="confirm password" class="input" autocomplete="current-password">
+        <i class="fa-solid fa-lock"></i>
+        <div class="passes">Please confirm password</div>
+       </div>
+       <div class="checks">
+        <label for="rember">
+            <input type="checkbox" id="rember">I agree to the terms and conditions <a href=""></a>
+        </label>
+       </div>
+       <button type="submit" id="click" onclick="message()">Submit</button>
+    </form>
+    <div class="switch">
+        <p>Already have an account? <button class="login2" id="login">Login</button></p>
+       </div>
+       <div class="pop"><i class="fa-regular fa-circle-check"></i>Registration successful</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

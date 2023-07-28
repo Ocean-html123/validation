@@ -44,8 +44,6 @@ function message(){
     const popup = document.querySelector('.pop')
     if(email.value === '') {
       error.style.display = 'block'
-    }else if (email.value && password.value != ''){
-        pop.classList.add('showpop')
     }
     if (password.value === ''){
         errors.style.display = 'block'
@@ -65,6 +63,16 @@ function message(){
         popup.classList.add('showpop')
         pop.classList.remove('showpop')
     }
+    if(confirmpassword.value != password2.value) {
+        passes.style.display = 'block'
+        popup.classList.remove('showpop')
+    }
+    if (email.value && password.value != ''){
+        pop.classList.add('showpop')
+        popup.classList.remove('showpop')
+    }
+   
+
 setTimeout(function (){
 pop.classList.remove('showpop')
 popup.classList.remove('showpop')
